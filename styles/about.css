@@ -1,0 +1,257 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 72px;
+  color: white;
+  letter-spacing: 10%;
+  line-height: auto;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 10%;
+  line-height: auto;
+  margin-top: 140px;
+}
+
+body {
+  background-color: rgb(32, 32, 32);
+}
+
+.container {
+  width: 100%
+}
+
+.row{
+    width: 100%;
+}
+
+p {
+  margin-top: 17px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  line-height: auto;
+}
+
+.getStartedBtn {
+  display: block;
+  margin: 0px auto;
+  background-color: white;
+  color: #272142;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 25px 18px;
+  gap: 10px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 7px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+ .object-fit-cover {
+        object-fit: cover;
+    }
+
+    .icons{
+        margin-bottom: 20px;
+        text-size-adjust: 15px;
+    }
+
+.profile-pic{
+    max-width: 100%;
+    border-radius: 4%;
+    border:  4px solid rgba(92, 89, 89, 0.2);
+}
+
+.pink{
+    color: #F65282;
+    text-align:start;
+}
+
+.about-info{
+    padding-top: 40px;
+    padding-right: 250px;
+}
+.name{
+    margin-top: 0px;
+    text-align:start;
+}
+
+.me-info{
+    text-align: start;
+    font-size: 18px;
+
+}
+
+.contactBtn{
+  display: block;
+  background-color: white;
+  color: #272142;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 16px 16px;
+  gap: 10px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 6px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  margin: 0px auto;
+}
+
+.gallery{
+    padding: 45px 70px 5px 70px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: rgb(40, 35, 35);
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.centered{
+    padding-top: 10px;
+}
+
+small{
+    font-size: 12px;
+}
+
+   @media (max-width: 1250px) {
+        .custom-col {
+            width: 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    @media (min-width: 1251px) {
+        .custom-col {
+            width: 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    
+    
+
+      @media (max-width: 430px) {
+            .about-info {
+                padding-right: 0;
+                padding-top: 0px;
+                 margin-top: 0px;
+
+            }
+
+            .profile-pic {
+                margin: 0 auto;
+            }
+
+            .row{
+                margin: 0 auto;
+            }
+
+            .img{
+                object-fit: none;
+                margin: 0 auto;
+            }
+
+            .img-fluid.rounded.m-3.object-fit-cover {
+              margin: 0 !important;
+              padding-bottom: 20px;
+            }
+
+            .about-container  {
+                padding-top: 0px;
+                margin-top: 0px;
+            }
+
+           .icons {
+                text-align: left !important;
+                padding: 0px 0px;
+                margin-bottom: 15px;
+                margin-left: 0px;
+                margin-top: 0px;
+                display: flex;
+                justify-content: left;
+            }
+
+          .icons .d-flex.justify-content-center.mt-3 {
+                justify-content: flex-start !important; 
+                margin-top: 0px !important; 
+                margin-left: 0px !important;
+                padding-left: 0px !important;
+            }
+
+           .icons .d-flex.justify-content-center.mt-3 .mx-2{
+                 margin-left: 0px !important;
+           }
+          
+            .contactBtn {
+                text-align: left;
+                 margin: 0px auto;
+            }
+
+            .pink{
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+
+
+            .gallery{
+                padding: 0px;
+                margin-bottom: 0px;
+            }
+
+           footer{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 14px;
+           }
+
+
+          
+        }
+
+
+
+        @media (min-width: 430px) and (max-width: 1250px) {
+    
+
+     .profile-pic {
+        margin: 0 auto;
+    }
+
+        .about-info {
+                padding-right: 0;
+                padding-top: 0px;
+                 margin: 10px 70px;
+
+            }
+
+        .contactBtn {
+             margin: 0px auto;
+             margin-bottom: -15px;
+
+        }
+
+}
