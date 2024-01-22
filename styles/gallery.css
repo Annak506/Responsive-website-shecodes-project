@@ -157,14 +157,14 @@ footer .icons{
     }
 
      footer .footer-text {
-        text-align: center; /* Center the text in the footer */
-        margin-right: 10px; /* Remove the right margin */
+        text-align: center; 
+        margin-right: 10px; 
     }
 
      .footer-text p {
-        font-size: 12px; /* Adjust the font size for smaller screens */
-        margin-top: 30px; /* Reduce the top margin for better spacing */
-        margin-right: 10px; /* Remove the right margin */
+        font-size: 12px; 
+        margin-top: 30px; 
+        margin-right: 10px;
     }
 
 }
@@ -176,7 +176,7 @@ footer .icons{
   }
 
     .container {
-        width: 90%; 
+        width: 70%; 
     }
 
     .icons .d-flex {
@@ -203,9 +203,9 @@ footer .icons{
 }
 
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .container {
-        width: 90%; 
+        width: 70%; 
     }
 
     .icons .d-flex {
