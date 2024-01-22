@@ -146,6 +146,9 @@ small{
     margin-right: 25px;
 }
 
+.contact-info{
+    margin-bottom: 55px;
+}
 
 @media (max-width: 595px) {
    .container [class^="col"] {
