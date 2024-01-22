@@ -39,7 +39,7 @@
     <h3> ANNA BANNENBERG-KLEINLOOG</h3>
     <h1> WEDDING GALLERY </h1>
     <p> Here, you'll find a collection of our favorite wedding moments. </p>
-    <button class="getStartedBtn" > Get started </button>
+    <button class="getStartedBtn" id="getStartedBtn" > Get started </button>
 
     <div class="container">
     <div class="row align-items-stretch mb-4">
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <div class="row align-items-stretch mb-4">
+    <div class="row align-items-stretch mb-4" id="midpage">
         <div class="col-md-5">
              <img class="img-fluid rounded m-3 h-100 object-fit-cover" src="/images/weddingpic8.jpg"></img>
         </div>
@@ -100,6 +100,12 @@
 
 
 </div>
+
+<script>
+    document.getElementById('getStartedBtn').addEventListener('click', function () {
+        document.getElementById('midpage').scrollIntoView({ behavior: 'smooth' });
+    });
+</script>
 
 </body>
 </html>
