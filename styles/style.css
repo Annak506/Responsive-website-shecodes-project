@@ -24,6 +24,14 @@ body {
   background-color: rgb(32, 32, 32);
 }
 
+.container {
+  width: 100%
+}
+
+.row{
+    width: 100%;
+}
+
 p {
   margin-top: 17px;
   font-family: "Roboto", sans-serif;
@@ -57,9 +65,35 @@ p {
         object-fit: cover;
     }
 
-    @media (max-width: 767.98px) {
+    .icons{
+        margin-bottom: 20px;
+    }
+
+  @media (max-width: 595px) {
   .container [class^="col"] {
-    margin-bottom: 15px; 
+    margin-bottom:80px;
+   
   }
- 
+
+   .icons{
+        margin-bottom: 80px;
+    }
+
+
 }
+
+  @media (max-width: 768px) {
+  .container [class^="col"] {
+    margin-bottom: 80px;
+
+  }
+
+  .icons{
+        margin-bottom: 80px;
+    }
+
+
+
+
+}
+  
